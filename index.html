@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Digital Footprint Simulator</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+
+  <header>
+    <h1>🕵️ Digital Footprint Simulator</h1>
+    <p>Visualizing how your interactions create data trails</p>
+  </header>
+
+  <main class="container">
+    <section class="tracker">
+      <h2>User Activity Panel</h2>
+      <button id="actionBtn">Click Me</button>
+      <input type="text" id="textInput" placeholder="Type something..." />
+      <a href="#" id="fakeLink">Hover over me</a>
+    </section>
+
+    <section class="dashboard">
+      <h2>Tracked Digital Footprint</h2>
+      <div class="stats">
+        <div class="card">
+          <span id="clickCount">0</span>
+          <p>Clicks</p>
+        </div>
+        <div class="card">
+          <span id="keyCount">0</span>
+          <p>Keystrokes</p>
+        </div>
+        <div class="card">
+          <span id="hoverCount">0</span>
+          <p>Hovers</p>
+        </div>
+        <div class="card">
+          <span id="timeSpent">0s</span>
+          <p>Time on Page</p>
+        </div>
+      </div>
+
+      <div class="log">
+        <h3>Activity Log</h3>
+        <ul id="activityLog"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>⚠️ This simulator demonstrates how seemingly harmless actions generate data footprints.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
