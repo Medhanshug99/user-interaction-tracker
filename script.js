@@ -15,29 +15,26 @@ function logActivity(message) {
   logEl.prepend(li);
 }
 
-// Click Tracking
 document.getElementById("actionBtn").addEventListener("click", () => {
   clickCount++;
   clickEl.textContent = clickCount;
   logActivity("Button clicked");
 });
 
-// Keystroke Tracking
 document.getElementById("textInput").addEventListener("keydown", () => {
   keyCount++;
   keyEl.textContent = keyCount;
   logActivity("Keystroke detected");
 });
 
-// Hover Tracking
 document.getElementById("fakeLink").addEventListener("mouseover", () => {
   hoverCount++;
   hoverEl.textContent = hoverCount;
   logActivity("Hovered over link");
 });
 
-// Time on Page
 setInterval(() => {
   const seconds = Math.floor((Date.now() - startTime) / 1000);
   timeEl.textContent = `${seconds}s`;
 }, 1000);
+
