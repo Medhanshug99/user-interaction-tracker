@@ -1,7 +1,7 @@
 # 🕵️ User Interaction Tracker  
 *A Digital Footprint Simulator*
 
-**Live Demo:** https://your-demo-link-here
+**Live Demo:** (https://user-interaction-tracker-js.vercel.app/)
 
 ## 📌 Overview
 The **User Interaction Tracker** is a browser-based simulator that demonstrates how everyday user actions contribute to a digital footprint. It tracks common interactions such as clicks, keystrokes, hovers, and session duration, and visualizes them in real time.
@@ -14,7 +14,6 @@ This project focuses on **client-side event tracking**, **data aggregation**, an
 - Most users are unaware of how much data is generated through normal browsing
 - Demonstrates real-world analytics concepts used in production systems
 - Emphasizes **ethical and transparent tracking**, not data misuse
-- Feels like an **industry tool**, not a college demo
 
 ---
 
