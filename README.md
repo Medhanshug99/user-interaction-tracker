@@ -1,5 +1,4 @@
 # 🕵️ User Interaction Tracker  
-*A Digital Footprint Simulator*
 
 **Live Demo:** (https://user-interaction-tracker-js.vercel.app/)
 
