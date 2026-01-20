@@ -1,22 +1,22 @@
-# 🕵️ User Interaction Tracker  
+#  User Interaction Tracker  
 
 **Live Demo:** (https://user-interaction-tracker-3.vercel.app/))
 
-## 📌 Overview
+##  Overview
 The **User Interaction Tracker** is a browser-based simulator that demonstrates how everyday user actions contribute to a digital footprint. It tracks common interactions such as clicks, keystrokes, hovers, and session duration, and visualizes them in real time.
 
 This project focuses on **client-side event tracking**, **data aggregation**, and **privacy awareness**, highlighting how even simple interactions generate behavioral data.
 
 ---
 
-## 🎯 Why This Project Matters
+##  Why This Project Matters
 - Most users are unaware of how much data is generated through normal browsing
 - Demonstrates real-world analytics concepts used in production systems
 - Emphasizes **ethical and transparent tracking**, not data misuse
 
 ---
 
-## ✨ Features
+##  Features
 -  Tracks button clicks  
 -  Counts keystrokes (without storing typed content)  
 -  Detects hover interactions  
@@ -26,7 +26,7 @@ This project focuses on **client-side event tracking**, **data aggregation**, an
 
 ---
 
-## 🧠 Key Concepts Demonstrated
+##  Key Concepts Demonstrated
 - **Event Tracking** – Monitoring user-triggered browser events  
 - **Data Aggregation** – Converting raw events into meaningful metrics  
 - **Session Analytics** – Understanding user engagement duration  
@@ -37,13 +37,13 @@ This project focuses on **client-side event tracking**, **data aggregation**, an
 ## 🛠️ Tech Stack
 - **HTML5** 
 - **CSS3**  
-- **Vanilla JavaScript** 
+- **JavaScript** 
 
 
 ---
 
 
-## ⚖️ Privacy Note
+##  Privacy Note
 This project is **purely educational**.  
 It does **not** collect, store, or transmit personal or sensitive user data.  
 Only interaction counts and timestamps are tracked to demonstrate how digital footprints are formed.
